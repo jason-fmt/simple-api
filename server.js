@@ -1,6 +1,9 @@
 const express = require('express')  // Gives us access to express
 const app = express()   // wherever we see 'app' we're using 'express'
+const cors = require('cors')
 const PORT = 8000
+
+app.use(cors())
 
 const rappers = {
     'bad bunny': {

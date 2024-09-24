@@ -1,4 +1,3 @@
-// Needs to be completed
 document.querySelector('button').addEventListener('click', apiRequest)
 
 async function apiRequest(){
